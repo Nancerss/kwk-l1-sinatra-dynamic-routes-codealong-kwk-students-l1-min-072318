@@ -23,7 +23,7 @@ class App < Sinatra::Base
   get '/addnumbers/:number1/:number1' do 
     number1 = params[:number1].to_i
     number2 = params[:number2].to_i
-    (number1*number2 = )
+    (number1*number2).to_i
     
 end
 
