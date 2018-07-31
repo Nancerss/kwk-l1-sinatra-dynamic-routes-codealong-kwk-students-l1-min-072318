@@ -21,7 +21,7 @@ class App < Sinatra::Base
   end
     
   get '/addnumbers/:number1/:number1' do 
-    
+    num 1
     
     
 end
