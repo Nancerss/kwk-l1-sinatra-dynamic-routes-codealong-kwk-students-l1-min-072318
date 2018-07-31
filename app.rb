@@ -20,10 +20,7 @@ class App < Sinatra::Base
     "Goodbye, #{@persons_name}."
   end
     
-  # params = {
-  #   :name => Beatrice
-  # }
-
+  get '/addnumbers/:number1/:number1' do 
 end
 
 
