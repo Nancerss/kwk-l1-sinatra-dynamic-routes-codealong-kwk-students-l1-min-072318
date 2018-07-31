@@ -18,6 +18,10 @@ class App < Sinatra::Base
   get '/goodbye/:name' do 
     @persons_name = params[:name]
     "Goodbye, #{@persons_name}!"
+    
+  params = {
+    :name => Beatrice
+  }
   end
 
 
